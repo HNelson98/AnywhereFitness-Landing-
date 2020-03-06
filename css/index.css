@@ -281,11 +281,6 @@ header button {
     height: 40vh;
   }
 }
-@media (max-width: 500px) {
-  .mid {
-    height: 50vh;
-  }
-}
 .mid h2 {
   font-family: 'Oswald';
 }
@@ -305,8 +300,7 @@ header button {
 }
 @media (max-width: 500px) {
   .mid p {
-    height: 40vh;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 .bot {
@@ -327,7 +321,6 @@ header button {
 @media (max-width: 800px) {
   .bot {
     flex-direction: column;
-    height: 150vh;
   }
 }
 .bot h2 {
@@ -360,7 +353,7 @@ header button {
 }
 @media (max-width: 500px) {
   .bot div {
-    height: 60vh;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 500px) {
