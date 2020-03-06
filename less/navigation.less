@@ -1,0 +1,48 @@
+// Navigation Styles here
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-bottom: 2px dashed @borderColor;
+    font-family: @headerFont;
+
+.fas{
+    display: none;
+
+    @media @phone{
+        display: block;
+    }
+}
+
+    h2{
+        font-family: @headerFont;
+        align-self: center;
+    }
+    .links{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        @media @phone{
+            display: none;
+        }
+    }
+
+    .linksFoot{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a{
+        width: 40%;
+        font-size: 15px;
+       font-size: 20px;
+       color: @linkColor;
+    }
+
+}//Nav end
+
